@@ -1,0 +1,23 @@
+.ejemplo {
+  margin: 0 0 28px;
+}
+
+.ejemplo-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 1px solid var(--color-borde);
+  margin-bottom: 4px;
+}
+
+.ejemplo-cabecera h3 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+}
+
+.ejemplo-cabecera code {
+  font-size: 0.8rem;
+  color: var(--color-tenue);
+}

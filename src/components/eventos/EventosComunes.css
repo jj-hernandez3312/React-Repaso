@@ -1,0 +1,12 @@
+.zona {
+  padding: 20px;
+  border: 2px dashed #c5cad3;
+  border-radius: var(--radio);
+  text-align: center;
+  user-select: none;
+}
+
+.zona-activa {
+  border-color: var(--color-principal);
+  background: var(--color-principal-suave);
+}

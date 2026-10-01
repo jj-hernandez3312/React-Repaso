@@ -1,0 +1,41 @@
+/* Clases de uso general, compartidas por varios componentes. */
+
+.caja {
+  background: white;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  padding: var(--espacio) 16px;
+  margin: 10px 0;
+}
+
+.fila {
+  display: flex;
+  gap: var(--espacio);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 380px;
+}
+
+.alerta {
+  color: var(--color-alerta);
+  font-weight: 600;
+}
+
+.ok {
+  color: var(--color-ok);
+  font-weight: 600;
+}
+
+.badge {
+  background: var(--color-peligro);
+  color: white;
+  border-radius: 12px;
+  padding: 2px 10px;
+  font-size: 0.85rem;
+}

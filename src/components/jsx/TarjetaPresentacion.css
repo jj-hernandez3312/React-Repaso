@@ -1,0 +1,10 @@
+.avatar-texto {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--color-principal);
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}

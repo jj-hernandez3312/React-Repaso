@@ -1,0 +1,23 @@
+.layout {
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  overflow: hidden;
+  background: white;
+}
+
+.layout .encabezado {
+  background: var(--color-texto);
+  color: white;
+  padding: 10px 16px;
+}
+
+.layout .contenido {
+  padding: 4px 16px;
+}
+
+.layout .pie {
+  background: #f0f2f5;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  color: var(--color-tenue);
+}

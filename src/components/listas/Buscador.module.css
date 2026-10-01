@@ -1,0 +1,28 @@
+/* CSS Module: Vite renombra estas clases al compilar (buscador -> _buscador_1a2b3)
+   para que no choquen con clases de otros archivos. */
+.controles {
+  display: flex;
+  gap: var(--espacio);
+  flex-wrap: wrap;
+}
+
+.resumen {
+  color: var(--color-tenue);
+  font-size: 0.9rem;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--color-borde);
+}
+
+.vacio {
+  color: var(--color-alerta);
+  font-weight: 600;
+}

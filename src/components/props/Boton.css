@@ -1,0 +1,22 @@
+/* Clase base más una clase por variante: boton-primario, boton-peligro... */
+.boton {
+  transition: background 0.15s;
+}
+
+.boton-primario {
+  background: var(--color-principal);
+  color: white;
+}
+
+.boton-primario:hover {
+  background: #066880;
+}
+
+.boton-peligro {
+  border-color: var(--color-peligro);
+  color: var(--color-peligro);
+}
+
+.boton-peligro:hover {
+  background: #fce7f0;
+}

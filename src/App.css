@@ -1,0 +1,24 @@
+/* Estilos del armazón de la aplicación: cabecera, pestañas y zona de contenido. */
+
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.app header h1 {
+  color: var(--color-principal);
+  margin-top: 0;
+}
+
+.app nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+
+.tab.activa {
+  background: var(--color-principal);
+  color: white;
+}

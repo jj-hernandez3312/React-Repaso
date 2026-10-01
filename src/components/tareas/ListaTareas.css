@@ -1,0 +1,11 @@
+.lista-tareas {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-tareas .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0;
+}
